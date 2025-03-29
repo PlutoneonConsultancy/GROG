@@ -1,0 +1,11 @@
+[Desktop Entry]
+Icon=com.github.coslyk.MoonPlayer
+Hidden=false
+Name=MoonPlayer
+Comment=Play local or online videos
+Exec=/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=moonplayer --file-forwarding com.github.coslyk.MoonPlayer @@u %U @@
+Terminal=false
+X-GNOME-Autostart-Delay=0
+Type=Application
+
+What do I add to the above script, if I want to launch 11 videos  (all contents of the folder) from path /home/tunderlanyok/Videos ?
